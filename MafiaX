@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;92mlovehacker\n \x1b[1;92mBlackMafia         \x1b[1;97m##############################\n \x1b[1;92m##\x1b[1;93m#####  \x1b[1;97m######## \x1b[1;92m#################### \n \x1b[1;92m## \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m #################\n \x1b[1;92m##\x1b[1;93m####### \x1b[1;97m######### \x1b[1;92m######################  \x1b[1;93mBlackMafiaX\n \x1b[1;92m############         \x1b[1;97m«==========BlackMafiaX==========»\n \x1b[1;92m #######\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mloveHacker   \x1b[1;91m:  \x1b[1;96m lovehacker  \x1b[1;97m                   ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mWhatsApp   \x1b[1;91m:  \x1b[1;92m \x1b[92m03094161457\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mLovehacker       \x1b[1;91m:   \x1b[1;92\x1b[92mAsif Javed\x1b[     \x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Sy login karain No problum Acount Checkpoint\n'
+logo = " \x1b[1;92mlovehacker\n \x1b[1;92mBlackMafia         \x1b[1;97m##############################\n \x1b[1;92m##\x1b[1;93m#####  \x1b[1;97m######### \x1b[1;92m############################## \n \x1b[1;92m## \x1b[1;97m  \x1b[1;97m##############\x1b[1;92m #############################\n \x1b[1;92m##\x1b[1;93m####### \x1b[1;97m######### \x1b[1;92m######################  \x1b[1;93mBlackMafiaX\n \x1b[1;92m############         \x1b[1;97m«==========BlackMafiaX==========»\n \x1b[1;92m #######\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mloveHacker   \x1b[1;91m:  \x1b[1;96m lovehacker  \x1b[1;97m                   ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mWhatsApp   \x1b[1;91m:  \x1b[1;92m \x1b[92m     03094161457\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mLovehacker       \x1b[1;91m:   \x1b[1;92\x1b[92mAsif Javed\x1b[     \x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Sy login karain No problum Acount Checkpoint\n'
 
 def tik():
     titik = [
@@ -82,7 +82,7 @@ def login():
         try:
             br.open('https://m.facebook.com')
         except mechanize.URLError:
-            print '\n\x1b[1;91m[!] Tidak Ada Koneksi'
+            print '\n\x1b[1;91m[!] koi rabta nahi'
             keluar()
 
         br._factory.is_html = True
